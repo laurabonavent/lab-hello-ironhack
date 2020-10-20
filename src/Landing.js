@@ -1,16 +1,25 @@
 import React from 'react';
 
 const Landing = () => {
-  return (<header>
-    <nav>
-      <img src="./images/ironhack-logo.svg"></img>
-      <img src="./images/menu-top.svg"></img>
-    </nav>
-    <h1>Say hello to React JS</h1>
-    <p>You will learn a Frontend framework from sractch, to become a Ninka Developer</p>
-    <button>Awesome!</button>  
-  </header>)
+	return (
+		<header className='firstPart'>
+			<nav className="header">
+			<img alt='' src='./images/ironhack-logo.svg' />
+        <img alt='' src='./images/menu-top.svg' />
+			</nav>
+			<section className='header-section'>
+        <h1>Say hello to ReactJS</h1>
+        <p>
+          You will learn how to use<br></br>
+          the most popular frontend library,<br></br>
+          and become a super Nunja developer.
+        </p>
+        <button>
+          Awesome!
+        </button>
+      </section>
+		</header>
+	)
 }
 
-
-export default Landing
+export default Landing;
